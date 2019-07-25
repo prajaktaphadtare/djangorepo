@@ -7,7 +7,7 @@ class ProductsVset(ModelViewSet):
     queryset = Product.objects.all()
     serializer_class = ProductSer
 
-print("hi")
+print("hi, this is electonic.views")
 
 
 class VendorVset(ModelViewSet):
